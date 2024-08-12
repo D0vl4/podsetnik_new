@@ -1,0 +1,208 @@
+.featured-icon {
+    width: 32px;
+    position: relative;
+    height: 32px;
+}
+.supporting-text {
+    align-self: stretch;
+    position: relative;
+    line-height: 20px;
+}
+.text-and-supporting-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.checkbox-base {
+    width: 16px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #d0d5dd;
+    box-sizing: border-box;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.checkbox-group-item {
+    align-self: stretch;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #e4e7ec;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.checkbox-group-item:active {
+    border: 2px solid #0BA5EC;
+}
+
+
+.text-and-supporting-text1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.text-and-supporting-text2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.checkbox-group {
+    position: absolute;
+    top: 320px;
+    left: 16px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.text {
+    position: relative;
+    line-height: 20px;
+    font-weight: 600;
+    color: #182230;
+}
+.text-padding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px;
+}
+
+.buttonsbutton:active {
+    transform: translateY(3px);
+}
+
+.check-circle-broken-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.buttonsbutton {
+    position: absolute;
+    top: 728px;
+    left: calc(50% - 171.5px);
+    box-shadow: 0px 1px 20px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e4e7ec;
+    box-sizing: border-box;
+    width: 343px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 4px;
+    color: #98a2b3;
+}
+.nikad {
+    margin: 0;
+}
+.nikad-ne-zaboravi-container {
+    position: relative;
+    line-height: 100%;
+}
+.nikad-ne-zaboravi-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    font-family: 'Dela Gothic One';
+}
+.ne-zaboravimo {
+    font-family: Mulish;
+}
+.ao-najjvoljenija-ispod-container {
+    width: 343px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.ao-najjvoljenija-ispod-sam-na-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.frame-child {
+    width: 343px;
+    position: relative;
+    height: 0.5px;
+    background-color: #182230;
+}
+.klikni-na-box {
+    align-self: stretch;
+    position: relative;
+}
+.vector-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 16px;
+    gap: 4px;
+    font-size: 12px;
+    color: #1d3557;
+}
+.frame-parent {
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 40px;
+    color: #182230;
+}
+.mobile-nikad-ne-zaboravi-red {
+    max-width: 375px;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('./Assets/11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 14px;
+    color: #475467;
+    font-family: Mulish;
+}
+
