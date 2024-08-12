@@ -192,7 +192,7 @@
     color: #182230;
 }
 .mobile-nikad-ne-zaboravi-red {
-    max-width: 375px;
+    min-width: 375px;
     position: relative;
     height: 100vh;
     overflow: hidden;
